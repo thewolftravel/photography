@@ -1,0 +1,56 @@
+#photographer {
+  max-width: 30%;
+  border-radius: 50%;
+}
+
+p,
+h1 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: 100;
+}
+
+.jumbotron {
+  background-image: url(images/Me/Background\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  margin: none;
+  padding: none;
+}
+
+/* hover */
+a:hover {
+  opacity: 0.8;
+}
+
+h1:hover {
+  cursor: default;
+  opacity: 0.9;
+}
+
+p:hover {
+  cursor: default;
+}
+
+/* BACKGROUND */
+@media (min-width: 900px) {
+  .background-photo {
+    background-image: url(images/Me/Background\ 2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin: none;
+    padding: none;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 899px) {
+  .background-photo {
+    background-image: url(images/Me/Background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin: none;
+    padding: none;
+  }
+}
