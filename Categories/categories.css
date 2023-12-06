@@ -46,7 +46,6 @@ p {
   bottom: 0;
   width: 100%;
   background-color: black;
-  height: 8vh;
 }
 
 @media (min-width: 700px) {
