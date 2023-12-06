@@ -9,7 +9,8 @@ body {
 
 h3,
 h1,
-p {
+p,
+span {
   color: rgba(255, 255, 255, 0.25);
 }
 
@@ -38,7 +39,6 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  text-align: justify;
 }
 
 .footer {
