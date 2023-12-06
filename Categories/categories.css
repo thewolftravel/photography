@@ -18,6 +18,10 @@ header {
   display: block;
 }
 
+.control-buttons {
+  margin: 7% 0;
+}
+
 .carousel-inner {
   max-height: fit-content;
 }
