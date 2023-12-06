@@ -13,6 +13,10 @@ h1 {
   font-weight: 100;
 }
 
+footer  p {
+  align-content: center;
+}
+
 .jumbotron {
   background-image: url(images/Me/Background\ 2.jpg);
   background-size: cover;
@@ -53,9 +57,9 @@ p:hover {
     background-image: url(images/Me/Background.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: rgb(41, 159, 168);
     width: 100vw;
     margin: none;
     padding: none;
   }
 }
-
