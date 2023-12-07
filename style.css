@@ -62,7 +62,7 @@ p:hover {
     background-image: url(images/Me/Background.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(41, 159, 168);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 100vw;
     margin: none;
     padding: none;
