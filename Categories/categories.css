@@ -18,14 +18,6 @@ header {
   display: block;
 }
 
-.control-buttons {
-  margin: 7% 0;
-}
-
-.carousel-inner {
-  max-height: fit-content;
-}
-
 .nav-masthead .active,
 p,
 h1 {
@@ -45,6 +37,12 @@ p {
   margin-inline-end: 0px;
 }
 
+/* hover */
+a:hover {
+  opacity: 0.8;
+}
+
+/* Classes */
 .footer {
   position: sticky;
   bottom: 0;
@@ -56,11 +54,21 @@ p {
   text-align: center;
 }
 
+.control-buttons {
+  margin: 7% 0;
+}
+
+.carousel-inner {
+  max-height: fit-content;
+}
+
+/* IDs */
 #photographer {
   max-width: 30%;
   border-radius: 50%;
 }
 
+/* Responsiviness */
 @media (min-width: 700px) {
   .first-item {
     display: block;
