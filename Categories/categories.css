@@ -37,14 +37,35 @@ p {
   margin-inline-end: 0px;
 }
 
+li > a {
+  color: black;
+}
+
+li > a:visited {
+  color: black;
+}
 /* hover */
 a:hover {
   opacity: 0.8;
 }
 
 /* Classes */
+.amazonfav {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: none;
+  margin-right: 20%;
+  margin-left: 20%;
+  background-color: #000000;
+  text-align: center;
+  width: 50%;
+  border: none;
+  align-content: center;
 
-.kb-logo{
+  color: #ffffff;
+}
+
+.kb-logo {
   font-family: "Playfair Display", serif;
   font-weight: normal;
 }
