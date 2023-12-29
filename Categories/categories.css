@@ -43,6 +43,36 @@ a:hover {
 }
 
 /* Classes */
+
+.kb-logo{
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+
+.btn-insta-link {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: none;
+  margin-right: 20%;
+  margin-left: 20%;
+  background-color: #e4dedb;
+  text-align: center;
+  width: 50%;
+  border-radius: 30px;
+  border: none;
+  align-content: center;
+  box-shadow: 3px 1px 3px thistle;
+  padding: 2px;
+}
+
+.insta-links {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  text-shadow: 3px 1px 2px #ffffff;
+}
+
 .footer {
   position: sticky;
   bottom: 0;
@@ -66,6 +96,10 @@ a:hover {
 #photographer {
   max-width: 30%;
   border-radius: 50%;
+}
+
+#btn-discovery-call {
+  margin-top: 25px;
 }
 
 /* Responsiviness */

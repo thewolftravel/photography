@@ -17,6 +17,39 @@ footer p {
   align-content: center;
 }
 
+h3 {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.btn-insta-link {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+  background-color: #e4dedb;
+  text-align: center;
+  width: 50%;
+  border-radius: 30px;
+  border: none;
+  align-content: center;
+  box-shadow: 3px 1px 3px thistle;
+  padding: 2px;
+}
+
+.insta-links {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  text-shadow: 3px 1px 2px #ffffff;
+}
+
+.kb-logo {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+
 .jumbotron {
   background-image: url(images/Me/Background\ 2.jpg);
   background-size: cover;
