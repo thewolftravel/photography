@@ -16,6 +16,7 @@ span {
 
 header {
   display: block;
+  background-color: #000000;
 }
 
 .nav-masthead .active,
@@ -113,6 +114,13 @@ a:hover {
   max-height: fit-content;
 }
 
+.bg-text-about {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 /* IDs */
 #photographer {
   max-width: 30%;
@@ -138,6 +146,17 @@ a:hover {
     margin: auto;
     display: block;
   }
+
+  .background-about {
+    background-image: url(../images/Keystone/KB\ Photographer\ -\ Keystone\ Dec\ 9\ 2023-079.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    margin: none;
+    padding: none;
+  }
 }
 
 @media (max-width: 699px) {
@@ -153,5 +172,16 @@ a:hover {
     max-height: 85vh;
     margin: auto;
     display: block;
+  }
+
+  .background-about {
+    background-image: url(../images/Keystone/KB\ Photographer\ -\ Keystone\ Dec\ 9\ 2023-079.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    margin: none;
+    padding: none;
   }
 }
