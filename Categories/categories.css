@@ -51,6 +51,19 @@ a:hover {
 }
 
 /* Classes */
+.hidden {
+  visibility: hidden;
+}
+
+.p-light-bg {
+  color: #000000;
+}
+
+.img-custom-200 {
+  display: block;
+  max-width: 450px;
+}
+
 .amazonfav {
   display: block;
   margin-top: 10px;
@@ -62,7 +75,6 @@ a:hover {
   width: 50%;
   border: none;
   align-content: center;
-
   color: #ffffff;
 }
 
