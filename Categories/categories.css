@@ -63,6 +63,9 @@ a:hover {
   display: block;
   max-width: 450px;
 }
+.bg-blog {
+  background-color: #ffffff;
+}
 
 .amazonfav {
   display: block;
@@ -81,6 +84,13 @@ a:hover {
 .kb-logo {
   font-family: "Playfair Display", serif;
   font-weight: normal;
+  color: #33787B;
+}
+
+.logo-font {
+  color: #33787b;
+  text-decoration: underline double  #33787B 1px;
+  font-family: "Playfair Display", serif;
 }
 
 .btn-insta-link {
