@@ -16,13 +16,13 @@ span {
 
 header {
   display: block;
-  background-color: #000000;
+  background-color: rgba(228, 222, 219);
 }
 
 .nav-masthead .active,
 p,
 h1 {
-  color: #fff;
+  color: #000;
   border-bottom-color: #fff;
   text-align: center;
   font-family: "Hedvig Letters Serif", serif;
@@ -121,7 +121,7 @@ a:hover {
   position: sticky;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: rgba(228, 222, 219);
 }
 
 .footer p {
@@ -137,10 +137,16 @@ a:hover {
 }
 
 .bg-text-about {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(228, 222, 219, 0.7);
   border-radius: 30px;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.list-price{
+  list-style: disc;
+  text-align: left;
+   font-family: "Hedvig Letters Serif", serif;
 }
 
 /* IDs */
