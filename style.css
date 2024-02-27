@@ -20,10 +20,25 @@ footer p {
 h3 {
   color: rgba(255, 255, 255, 0.25);
 }
+
+.bg-footer {
+  width: 100%;
+  background-color: rgba(228, 222, 219);
+  border-radius: 20px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(228, 222, 219);
+}
+
 .btn-kb-logo {
   background-color: #33787b;
   color: #ffffff;
   font-family: "Hedvig Letters Serif", serif;
+  border-radius: 30px;
 }
 
 .btn-insta-link {

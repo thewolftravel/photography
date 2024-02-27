@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: rgba(228, 222, 219);
 }
 
 h3,
@@ -73,23 +73,30 @@ a:hover {
   margin-bottom: none;
   margin-right: 20%;
   margin-left: 20%;
-  background-color: #000000;
+  background-color: #fff;
   text-align: center;
   width: 50%;
   border: none;
   align-content: center;
-  color: #ffffff;
+  border-radius: 50px;
 }
 
 .kb-logo {
   font-family: "Playfair Display", serif;
   font-weight: normal;
-  color: #33787B;
+  color: #33787b;
+}
+
+.btn-kb-logo {
+  background-color: #33787b;
+  color: #ffffff;
+  font-family: "Hedvig Letters Serif", serif;
+  border-radius: 30px;
 }
 
 .logo-font {
   color: #33787b;
-  text-decoration: underline double  #33787B 1px;
+  text-decoration: underline double #33787b 1px;
   font-family: "Playfair Display", serif;
 }
 
@@ -99,13 +106,13 @@ a:hover {
   margin-bottom: none;
   margin-right: 20%;
   margin-left: 20%;
-  background-color: #e4dedb;
+  background-color: #33787b;
   text-align: center;
   width: 50%;
   border-radius: 30px;
   border: none;
   align-content: center;
-  box-shadow: 3px 1px 3px thistle;
+  box-shadow: 3px 1px 3px #fff;
   padding: 2px;
 }
 
@@ -113,8 +120,7 @@ a:hover {
   font-family: "Playfair Display", serif;
   font-weight: normal;
   text-decoration: none;
-  color: black;
-  text-shadow: 3px 1px 2px #ffffff;
+  color: #fff;
 }
 
 .footer {
@@ -126,6 +132,12 @@ a:hover {
 
 .footer p {
   text-align: center;
+}
+
+.bg-footer {
+  width: 100%;
+  background-color: rgba(228, 222, 219);
+  border-radius: 20px;
 }
 
 .control-buttons {
@@ -143,10 +155,10 @@ a:hover {
   padding-bottom: 2%;
 }
 
-.list-price{
+.list-price {
   list-style: disc;
   text-align: left;
-   font-family: "Hedvig Letters Serif", serif;
+  font-family: "Hedvig Letters Serif", serif;
 }
 
 /* IDs */
