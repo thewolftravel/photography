@@ -46,8 +46,8 @@
     data-gr-ext-installed=""
     class="background-photo"
   >
-    <header data-bs-theme="dark">
-      <div class="navbar navbar-dark bg-dark shadow-sm">
+    <header>
+      <div class="navbar shadow-sm">
         <div class="container">
           <a href="#" class="navbar-brand d-flex align-items-center">
             <h3 class="kb-logo">Karina Bittencourt Photographer</h3>
@@ -88,21 +88,21 @@
             <span>
               <a
                 href="https://thewolftravel.github.io/photography/Categories/blog.html"
-                class="btn btn-dark mt-4 btn-lg"
+                class="btn btn-light mt-4 btn-lg kb-logo"
                 target="_blank"
                 >Visit Blog</a
               >
 
               <a
                 href="https://calendly.com/kbphotographer/30min?month=2023-12"
-                class="btn btn-success mt-4 btn-lg"
+                class="btn mt-4 btn-lg btn-kb-logo"
                 target="_blank"
                 >Schedule a Call</a
               >
 
               <a
                 href="https://thewolftravel.github.io/photography/store.html"
-                class="btn btn-dark mt-4 btn-lg"
+                class="btn btn-light mt-4 btn-lg kb-logo"
                 target="_blank"
                 >Visit Store</a
               >
@@ -262,14 +262,24 @@
       <div class="p-5 text-center jumbotron">
         <div class="container pt-5 pb-3 booking-section">
           <h1 class="text-body-emphasis kb-logo">Schedule a Call</h1>
-          <p class="col-lg-8 mx-auto lead">
-            Schedule a mini session <code>today</code>. Click in the button
-            below to schedule it.
-          </p>
+          <p class="col-lg-8 mx-auto lead">and let's get to know each other.</p>
+
+          <!-- Calendly inline widget begin -->
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/kbphotographer/30min?hide_event_type_details=1"
+            style="min-width: 320px; height: 700px"
+          ></div>
+          <script
+            type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async
+          ></script>
+          <!-- Calendly inline widget end -->
           <p>
             <a
               href="https://calendly.com/kbphotographer/30min?month=2023-12"
-              class="btn btn-success btn-lg"
+              class="btn btn-kb-logo btn-lg"
               target="_blank"
               >Contact Me</a
             >

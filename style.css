@@ -20,6 +20,11 @@ footer p {
 h3 {
   color: rgba(255, 255, 255, 0.25);
 }
+.btn-kb-logo {
+  background-color: #33787b;
+  color: #ffffff;
+  font-family: "Hedvig Letters Serif", serif;
+}
 
 .btn-insta-link {
   display: block;
@@ -48,6 +53,7 @@ h3 {
 .kb-logo {
   font-family: "Playfair Display", serif;
   font-weight: normal;
+  color: #33787b;
 }
 
 .jumbotron {
