@@ -3,8 +3,7 @@
 }
 
 #photographer {
-  max-width: 30%;
-  border-radius: 50%;
+  max-width: 40%;
 }
 
 p,
@@ -38,7 +37,7 @@ h3 {
   background-color: #33787b;
   color: #ffffff;
   font-family: "Hedvig Letters Serif", serif;
-  border-radius: 30px;
+  border-radius: 2px;
 }
 
 .btn-insta-link {
@@ -71,7 +70,7 @@ h3 {
   color: #33787b;
 }
 
-.jumbotron {
+.jumbotron-img {
   background-image: url(images/Me/Background\ 2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,6 +85,8 @@ h3 {
 }
 
 /* hover */
+
+
 a:hover {
   opacity: 0.8;
 }
