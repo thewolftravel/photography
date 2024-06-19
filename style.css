@@ -6,6 +6,13 @@
   max-width: 40%;
 }
 
+.h1-SEO {
+  color: #ffffff; /* Fallback for older browsers */
+  color: rgb(255, 255, 255, 0);
+  font-size: 0.5pt;
+  font-family: Arial, sans-serif;
+}
+
 p,
 h1 {
   font-family: "Hedvig Letters Serif", serif;
@@ -71,12 +78,80 @@ h3 {
 }
 
 .jumbotron-img {
-  background-image: url(images/Me/Background\ 2.jpg);
+  background-image: url(images/Nature\ +\ Travel/2300x730.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 0% 30%;
   width: 100vw;
   margin: none;
   padding: none;
+}
+.jumbotron-img-branding {
+  background-image: url(images/Headshots/landscape1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100vw;
+  height: 700px;
+  margin: none;
+  padding: none;
+  opacity: 0.7;
+}
+
+.jumbotron-img-lifestyle {
+  background-image: url(images/Portrait/Donna/snowboarderGirl1.jpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100vw;
+  height: 700px;
+  margin: none;
+  padding: none;
+  opacity: 0.7;
+}
+
+.jumbotron-img-wedding {
+  background-image: url(images/Portrait/Family/Nettie\ WA/DSC_6028.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100vw;
+  height: 700px;
+  margin: none;
+  padding: none;
+  opacity: 0.7;
+}
+
+.bg-div-img {
+  background-image: url(images/Nature\ +\ Travel/landscape.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100%;
+  margin: none;
+  padding: none;
+  opacity: 0.5;
+}
+
+.bg-card-pets {
+  background-image: url(images/website\ kb\ photographer\ co13.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100%;
+  margin: none;
+  padding: none;
+  opacity: 0.4;
+}
+
+.contact-form-left {
+  text-align: left;
+}
+
+.main-bg {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
 }
 
 .booking-section {
@@ -85,7 +160,6 @@ h3 {
 }
 
 /* hover */
-
 
 a:hover {
   opacity: 0.8;
@@ -100,6 +174,18 @@ p:hover {
   cursor: default;
 }
 
+.fade-out-card:hover {
+  opacity: 0.8;
+}
+.fade-out-card {
+  opacity: 1;
+}
+.fade-in-card{
+  opacity: .8;
+}
+.fade-in-card:hover{
+  opacity: 1;
+}
 /* BACKGROUND */
 @media (min-width: 900px) {
   .background-photo {
@@ -114,12 +200,24 @@ p:hover {
 
 @media (min-width: 350px) and (max-width: 1234px) {
   .background-photo {
-    background-image: url(images/Portrait/Donna/snowboarderGirl\ \(6\).jpg);
+    background-image: url(images/Portrait/Donna/snowboarderGirl6.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.5);
     width: 100vw;
     margin: none;
     padding: none;
+  }
+
+  .jumbotron-img-branding {
+    background-image: url(images/Headshots/landscape1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    width: 100vw;
+    height: 400px;
+    margin: none;
+    padding: none;
+    opacity: 0.7;
   }
 }
