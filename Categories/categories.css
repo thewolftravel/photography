@@ -37,6 +37,27 @@ header {
   padding: none;
 }
 
+.jumbotron-img-footer {
+  background-image: url(images/footer_KB_PHOTOGRAPHER_PHOTOGRAPHY_COLORADO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100vw;
+  height: 200px;
+  margin: none;
+  padding: none;
+}
+
+.jumbotron-img-blog {
+background-image: url(../images/Me/kbphotographer.com_kb_photography_photographer_colorado_blog_resources.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100vw;
+  margin: none;
+  padding: none;
+}
+
 .nav-masthead .active,
 p,
 h1 {
