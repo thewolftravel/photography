@@ -78,12 +78,8 @@ h3 {
 }
 
 .jumbotron-img {
-  background-image: url(images/KB\ Photography\ Portrait\ Karina\ Bittencourt\ KBPhotographer\ serving\ Broomfield\ Colorado.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0% 30%;
   width: 100vw;
-  height: 500px;
+  height: 700px;
   margin: none;
   padding: none;
 }
@@ -188,13 +184,13 @@ p:hover {
 }
 
 .fade-out-card:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .fade-out-card {
   opacity: 1;
 }
 .fade-in-card {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .fade-in-card:hover {
   opacity: 1;
@@ -232,5 +228,47 @@ p:hover {
     margin: none;
     padding: none;
     opacity: 0.7;
+  }
+}
+
+/* Animation */
+/* moving background */
+@keyframes animatedBackground {
+  from {
+    background-position: 0 20%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.jumbotron-img {
+  background-image: url("images/KB\ Photography\ Portrait\ Karina\ Bittencourt\ KBPhotographer\ serving\ Broomfield\ Colorado.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: repeat-x;
+  animation: animatedBackground 5s linear infinite alternate-reverse;
+}
+/* silde in */
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+p,
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }

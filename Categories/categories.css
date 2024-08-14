@@ -58,6 +58,10 @@ background-image: url(../images/Me/kbphotographer.com_kb_photography_photographe
   padding: none;
 }
 
+.blog-card {
+  opacity: 0.8;
+}
+
 .nav-masthead .active,
 p,
 h1 {
@@ -87,6 +91,10 @@ li > a:visited {
 /* hover */
 a:hover {
   opacity: 0.8;
+}
+.blog-card:hover {
+  opacity: 1;
+  background-color: #ddb8ae;
 }
 
 /* Classes */
@@ -262,5 +270,47 @@ a:hover {
     width: 100vw;
     margin: none;
     padding: none;
+  }
+}
+
+/* Animation */
+/* moving background */
+@keyframes animatedBackground {
+  from {
+    background-position: 0 20%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.jumbotron-img {
+  background-image: url("images/KB\ Photography\ Portrait\ Karina\ Bittencourt\ KBPhotographer\ serving\ Broomfield\ Colorado.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: repeat-x;
+  animation: animatedBackground 5s linear infinite alternate-reverse;
+}
+/* silde in */
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+p,
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
