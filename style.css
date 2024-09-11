@@ -40,6 +40,7 @@ h3 {
   background-color: rgba(228, 222, 219);
 }
 
+/* Buttons Beg */
 .btn-kb-logo {
   background-color: #33787b;
   color: #ffffff;
@@ -49,7 +50,7 @@ h3 {
 
 .btn-kb-logo-white {
   font-weight: 900;
-font-size: 45px;
+  font-size: 45px;
   color: #ffffff;
   font-family: "Hedvig Letters Serif", serif;
   border-radius: 2px;
@@ -71,6 +72,8 @@ font-size: 45px;
   padding: 2px;
 }
 
+/* Buttons end */
+
 .insta-links {
   font-family: "Playfair Display", serif;
   font-weight: normal;
@@ -87,13 +90,15 @@ font-size: 45px;
 
 .jumbotron-img {
   width: 100vw;
-  height: 700px;
+  height: 500px;
   margin: none;
   padding: none;
 }
 
 .jumbotron-img-ski {
- background-image: url(images/bg/Ski_Snowboard_photography_Colorado_vacation_family_photographer\ \(13\).png);
+  background-image: url(images/bg/Ski_Snowboard_photography_Colorado_vacation_family_photographer\\(
+      13\
+    ).png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 30%;
@@ -104,7 +109,7 @@ font-size: 45px;
 }
 
 .jumbotron-img-SE {
- background-image: url(images/bg/ski_snowboard_colorado_photography_kb_photographer_gif.gif);
+  background-image: url(images/bg/ski_snowboard_colorado_photography_kb_photographer_gif.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 30%;
@@ -277,9 +282,45 @@ p:hover {
   background-size: cover;
   background-position-y: center;
   background-position-x: center;
-  background-repeat: repeat-x;
-  animation: animatedBackground 10s linear infinite alternate-reverse;
+  background-repeat: initial;
+  animation: animatedBackground 10s ease-in alternate-reverse;
 }
+
+/* typing  */
+.typing-animation {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Hedvig Letters Serif", serif;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #33787b;
+  }
+}
+
 /* silde in */
 h1 {
   animation-duration: 5s;
