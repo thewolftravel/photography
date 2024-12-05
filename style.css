@@ -115,6 +115,7 @@ h3 {
   height: 400px;
   margin: none;
   padding: none;
+  color: #ffffff;
 }
 
 .jumbotron-img-footer {
@@ -150,6 +151,7 @@ h3 {
   margin: none;
   padding: none;
   opacity: 0.7;
+
 }
 
 .jumbotron-img-wedding {
@@ -162,6 +164,17 @@ h3 {
   margin: none;
   padding: none;
   opacity: 0.7;
+}
+
+.jumbotron-img-style {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  width: 100vw;
+  height: 700px;
+  margin: none;
+  padding: none;
+  color: #33787b;
 }
 
 .bg-div-img {
@@ -293,7 +306,6 @@ p:hover {
   letter-spacing: 0.15em;
   font-weight: 600;
   font-size: 30px;
-  color: #ffffff;
   font-family: "Hedvig Letters Serif", serif;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -319,7 +331,7 @@ p:hover {
   }
 }
 
-/* silde in */
+/* silde in
 h1 {
   animation-duration: 5s;
   animation-name: slidein;
@@ -340,4 +352,4 @@ h2 {
     margin-left: 0%;
     width: 100%;
   }
-}
+} */
