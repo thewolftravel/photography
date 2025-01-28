@@ -151,7 +151,6 @@ h3 {
   margin: none;
   padding: none;
   opacity: 0.7;
-
 }
 
 .jumbotron-img-wedding {
@@ -171,7 +170,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: 0% 30%;
   width: 100vw;
-  height: 700px;
+  height: 500px;
   margin: none;
   padding: none;
   color: #33787b;
@@ -264,6 +263,26 @@ p:hover {
     padding: none;
   }
 
+  /* INDEX text section beg */
+  .text-section {
+    font-size: 2rem; /* Default font size for larger screens */
+  }
+
+  /* Adjust font size for smaller screens */
+  @media (max-width: 768px) {
+    .text-section h2 {
+      font-size: 1.5rem; /* Smaller font size for mobile screens */
+    }
+  }
+
+  /* For very small screens like smartphones in portrait mode */
+  @media (max-width: 480px) {
+    .text-section h2 {
+      font-size: 1rem; /* Even smaller font size */
+    }
+  }
+  /* INDEX text section end */
+
   .jumbotron-img-branding {
     background-image: url(images/Headshots/landscape1.jpg);
     background-size: cover;
@@ -295,6 +314,13 @@ p:hover {
   background-position-x: center;
   background-repeat: initial;
   animation: animatedBackground 10s ease-in alternate-reverse;
+}
+
+.bob-dylan {
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Hedvig Letters Serif", serif;
 }
 
 /* typing  */

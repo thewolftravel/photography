@@ -93,110 +93,119 @@
     </div>
 
     <!-- Jumbotron Início -->
+ <div class="jumbotron bg-body-tertiary">
+  <!-- Jumbotron Carousel -->
+  <div class="jumbotron-carousel">
     <div
-      class="jumbotron-img-style overflow-hidden text-left bg-body-tertiary position-relative"
+      id="photoCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="2100"
     >
-      <!-- Carousel Início -->
-      <div
-        id="photoCarousel"
-        class="carousel slide"
-        data-bs-ride="carousel"
-        data-bs-interval="2100"
-      >
-        <div class="carousel-inner">
-          <!-- First Image (Active) -->
-          <div class="carousel-item active">
-            <img
-              src="../images/bg/gif/10.png"
-              class="d-block w-100"
-              alt="Photo 10"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-          <!-- Remaining Images -->
-          <div class="carousel-item">
-            <img
-              src="../images/bg/gif/11.png"
-              class="d-block w-100"
-              alt="Photo 11"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/bg/gif/12.png"
-              class="d-block w-100"
-              alt="Photo 12"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/bg/gif/13.png"
-              class="d-block w-100"
-              alt="Photo 13"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/bg/gif/14.png"
-              class="d-block w-100"
-              alt="Photo 14"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/bg/gif/15.png"
-              class="d-block w-100"
-              alt="Photo 15"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/bg/gif/16.png"
-              class="d-block w-100"
-              alt="Photo 16"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/bg/gif/17.png"
-              class="d-block w-100"
-              alt="Photo 17"
-              style="object-fit: cover; height: 100vh"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- Texto de conteúdo -->
-      <div
-        class="col-md-6 p-lg-5 mx-auto my-5 text-center position-absolute top-50 start-50 translate-middle"
-      >
-        <h2 class="typing-animation">vibrante, genuína, e</h2>
-        <h2 class="typing-animation">orientada ao movimento,</h2>
-        <h2 class="typing-animation">capturando momentos autênticos</h2>
-
-        <div class="pt-5">
-          <h1 class="h1-SEO">
-            Karina Bittencourt, estilo de vida nas montanhas, ação, trilhas,
-            snowboard, esqui, esportes, aventura, casais, elopement, sessão de
-            noivado, micro casamento, fotografia servindo Broomfield, Colorado,
-            KB Photographer, Keystone, Vail, Breckenridge, Winter Park
-          </h1>
+      <div class="carousel-inner">
+        <!-- First Image (Active) -->
+        <div class="carousel-item active">
           <img
-            src="../images/Logo/2(2).png"
-            class="img-fluid"
-            alt="logo KB Photographer"
-            style="max-width: 200px; max-height: 200px"
+            src="../images/bg/gif/10.png"
+            class="d-block w-100"
+            alt="Photo 10"
+            style="object-fit: cover; width: 100%; height: 300px"
+          />
+        </div>
+        <!-- Remaining Images -->
+        <div class="carousel-item">
+          <img
+            src="../images/bg/gif/11.png"
+            class="d-block w-100"
+            alt="Photo 11"
+            style="object-fit: cover; width: 100%; height: 300px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../images/bg/gif/12.png"
+            class="d-block w-100"
+            alt="Photo 12"
+            style="object-fit: cover; width: 100%; height: 300px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../images/bg/gif/13.png"
+            class="d-block w-100"
+            alt="Photo 13"
+            style="object-fit: cover; width: 100%; height: 300px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../images/bg/gif/14.png"
+            class="d-block w-100"
+            alt="Photo 14"
+            style="object-fit: cover; width: 100%; height: 300px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../images/bg/gif/15.png"
+            class="d-block w-100"
+            alt="Photo 15"
+            style="object-fit: cover; width: 100%; height: 300px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../images/bg/gif/16.png"
+            class="d-block w-100"
+            alt="Photo 16"
+            style="object-fit: cover; width: 100%; height: 300px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../images/bg/gif/17.png"
+            class="d-block w-100"
+            alt="Photo 17"
+            style="object-fit: cover; width: 100%; height: 300px"
           />
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Jumbotron Text + Logo -->
+  <div class="jumbotron-content d-flex flex-column flex-lg-row align-items-center justify-content-between px-3 py-4">
+    <!-- Text Section -->
+   <div class="text-section text-center text-lg-start mb-1 mb-lg-0">
+   <h2 class="typing-animation">vibrante, genuína, e</h2>
+   <h2 class="typing-animation">orientada ao movimento,</h2>
+   <h2 class="typing-animation">capturando momentos autênticos</h2>
+</div>
+
+
+
+      <div class="pt-2">
+        <h1 class="h1-SEO">
+          Karina Bittencourt, estilo de vida nas montanhas, ação, trilhas,
+          snowboard, esqui, esportes, aventura, casais, elopement, sessão de
+          noivado, micro casamento, fotografia servindo Broomfield, Colorado,
+          KB Photographer, Keystone, Vail, Breckenridge, Winter Park
+        </h1>
+      </div>
+ 
+    <!-- Logo Section -->
+    <div class="logo-section text-center">
+      <img
+        src="../images/Logo/2(2).png"
+        class="img-fluid"
+        alt="logo KB Photographer"
+        style="max-width: 200px; max-height: 200px"
+      />
+    </div>
+  </div>
+</div>
+
+
 
     <!-- Categorias Início -->
     <div class="container">
