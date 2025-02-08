@@ -42,8 +42,10 @@ h3 {
 
 /* Buttons Beg */
 .btn-kb-logo {
-  background-color: #33787b;
-  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #33787b;
+  border-width: 2px;
+  color: #33787b;
   font-family: "Hedvig Letters Serif", serif;
   border-radius: 2px;
 }
@@ -213,6 +215,8 @@ h3 {
   border-radius: 10px;
 }
 
+.copyright{font-size: xx-small;}
+
 /* hover */
 
 a:hover {
@@ -321,6 +325,11 @@ p:hover {
   font-weight: 600;
   font-size: 30px;
   font-family: "Hedvig Letters Serif", serif;
+}
+
+/* control carousels  */
+.carousel .carousel-item {
+  transition-duration: 4s;
 }
 
 /* typing  */
