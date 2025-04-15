@@ -292,7 +292,7 @@ a:hover {
   background-repeat: repeat-x;
   animation: animatedBackground 5s linear infinite alternate-reverse;
 }
-/* silde in */
+/* silde in
 h1 {
   animation-duration: 3s;
   animation-name: slidein;
@@ -313,4 +313,4 @@ h2 {
     margin-left: 0%;
     width: 100%;
   }
-}
+} */
