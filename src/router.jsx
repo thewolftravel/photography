@@ -87,9 +87,7 @@ const router = createBrowserRouter([
     { path: "store", element: <Store /> },
   ]
 }
-], {
-  basename: "/kbphotographer"
-}
+]
 )
 
 export default router
