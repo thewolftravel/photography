@@ -273,11 +273,14 @@ margin-bottom: 1rem;
   }
 
   .photographer {
+    width: 100%;
     justify-content: center;
   }
 
   .photographer img {
-    width: 80%;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   /* ---------- CARDS ---------- */

@@ -133,7 +133,7 @@ export default function RootLayout () {
               </Link>
 
               <Link to={path("/faq")}>
-                {isPT ? "Dúvidas" : "Faq"}
+                {isPT ? "Dúvidas" : "FAQ"}
               </Link>
 
               <Link to={path("/vendors-list")}>Vendor List</Link>

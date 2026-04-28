@@ -257,8 +257,8 @@ header {
   }
 
   /* LOGO */
-  .logo img {
-    height: 55px;
+  .header .navbar .logo img {
+    height: 80px;
     object-fit: contain;
   }
 
