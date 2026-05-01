@@ -244,13 +244,52 @@ import ElopeInColorado from "./couples/ElopeInColorado";
 import lovelandGuide from "../../assets/posts/couples/loveland.jpeg"
 import LovelandGuide from "./couples/LovelandGuide";
 
+import troll from "../../assets/posts/others/troll.jpeg"
+import TrollBreckenridge from "./others/TrollBreckenridge";
 
+import coloradoSprings from "../../assets/posts/couples/coloradoSpring.jpeg"
+import AirbnbAndVrbo from "./couples/AirbnbAndVrbo";
+
+import GardenofGods from "../../assets/posts/couples/gardenOfGods.jpeg"
+import GardenOfGods from "./couples/GardenOfGods";
 
 
 
 
 export const posts = [
 
+
+    {
+        slug: "garden-of-the-gods-elopement-guide-colorado-springs",
+        categoryFolder: "couples",
+        title: "Garden of the Gods",
+        category: " Elopement Guide | Colorado Springs",
+        excerpt: "Planning an engagement session or elopement in Colorado Springs? This is one of the most iconic backdrops you can choose. Red rock formations, wide open skies, and light that shifts beautifully throughout the day. It is dramatic without needing anything extra. The landscape does most of the storytelling.",
+        image:GardenofGods,
+        component: GardenOfGods
+    },
+
+
+
+        {
+        slug: "colorado-springs-elopement-stays-for-airbnb-and-vrbo-weddings",
+        categoryFolder: "couples",
+        title: "Colorado Springs Elopement Guide",
+        category: "Stays for Airbnb and VRBO Weddings",
+        excerpt: "If you are planning an elopement in Colorado Springs, one of the first things I always tell my couples is this. The place you stay is not just a place to sleep. It becomes part of your story. It is where you get ready together, have slow mornings together, have the final touches before you head into the mountains, and sometimes even where you say your vows.",
+        image:coloradoSprings,
+        component: AirbnbAndVrbo
+    },
+
+    {
+        slug: "troll-breckenridge-locations-explore",
+        categoryFolder: "others",
+        title: "Troll Breckenridge ",
+        category: "A Quick Guide to Finding Isak Heartstone",
+        excerpt: "If you’re planning a stop in Breckenridge, this is one of those places that feels a little unexpected in the best way. Tucked into the forest just outside town, the Troll—known as Isak Heartstone—has become one of those spots people seek out for a quick hike, a photo moment, and something a little different from the usual mountain views.",
+        image:troll,
+        component: TrollBreckenridge
+    },
 
     {
         slug: "loveland-pass-elopement-guide-colorado-wedding-locations",
