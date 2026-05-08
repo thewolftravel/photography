@@ -253,11 +253,39 @@ import AirbnbAndVrbo from "./couples/AirbnbAndVrbo";
 import GardenofGods from "../../assets/posts/couples/gardenOfGods.jpeg"
 import GardenOfGods from "./couples/GardenOfGods";
 
+import whatToWearSurprise from "../../assets/posts/couples/whatToWear.jpeg"
+import WhatToWearEngagementSurprise from "./couples/WhatToWearEngagementSurprise";
+
+import estespark from "../../assets/posts/couples/EstesPark.jpeg"
+import EstesParkEngagement from "./couples/EstesParkEngagement";
+
+
+
 
 
 
 export const posts = [
 
+    {
+        slug: "wedding-engagement-photographer-in-estes-park-rocky-moutain-national-park",
+        categoryFolder: "couples",
+        title: "Wedding Engagement Photographer in Estes Park",
+        category: "Rocky Mountain National Park",
+        excerpt: "Estes Park is one of my favorite places in Colorado for engagement photography because everything feels close to nature. Mountains, lakes, cabins, snow, wildlife, and abundant light. It is simple and cinematic at the same time.",
+        image:estespark,
+        component: EstesParkEngagement
+    },
+
+
+        {
+        slug: "what-to-wear-surprise-engagement-proposal-colorado",
+        categoryFolder: "couples",
+        title: "What to Wear for Your Surprise Engagement Proposal in Colorado",
+        category: "Engagement & Elopement | Colorado",
+        excerpt: "Colorado weather can be unpredictable, especially in the mountains and high altitude locations where many of my sessions take place. The more comfortable and connected you feel in what you’re wearing, the more your photos will reflect the experience honestly. And if you haven’t chosen outfits yet, here are my biggest recommendations for what photographs beautifully during a Colorado proposal.",
+        image:whatToWearSurprise,
+        component: WhatToWearEngagementSurprise
+    },
 
     {
         slug: "garden-of-the-gods-elopement-guide-colorado-springs",

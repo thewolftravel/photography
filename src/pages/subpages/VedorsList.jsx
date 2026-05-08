@@ -36,22 +36,7 @@ export default function VendorsLits() {
                     </p>
                     <a href="https://brightfolkgatherings.com/" target="_blank">Vist their website</a>
                 </li>
-                <li>
-                    <img src={vendor2} className="vendorsPhoto" alt="" />
-                    <h3 className="vendorsName">Pretty and Ink</h3>
-                    <p className="vendorsService"> Makeup Artist | Permanent Jewelry</p>
-                    <p className="vendorsDescription">
-                  Caila has been in the beauty industry for a decade. Her love
-                  of all things beauty related is inspired by her dad. Her love
-                  of weddings and all things bridal comes from wanting to be a
-                  wedding photographer. She fell in love with the behind the
-                  scenes work and caught herself wanting to help and jump in to
-                  assist with hair and make-up prep. Fast forward to present day
-                  and she gets to do what I love every single day.
-                
-                    </p>
-                    <a href="https://www.pretty-and-ink.com/" target="_blank">Vist their website</a>
-                </li>
+
                 <li>
                     <img src={vendor3} className="vendorsPhoto" alt="" />
                     <h3 className="vendorsName">Veiled Rose Films</h3>
@@ -84,17 +69,6 @@ export default function VendorsLits() {
                   with confidence.
                 </p>
                 <a href="https://natashaclawson.com/" target="_blank">Vist their website</a>
-                </li>
-                <li>
-                    <img src={vendor5} className="vendorsPhoto" alt="" />
-                    <h3 className="vendorsName">Meesha</h3>
-                    <p className="vendorsService">Hairstylist</p>
-                    <p className="vendorsDescription">
-
-                  View Details (soon)
-                
-                    </p>
-                    
                 </li>
 
                 <li>
