@@ -34,7 +34,7 @@ export default function VendorsLits() {
                     and anniversaries to other special gatherings.
                     
                     </p>
-                    <a href="https://brightfolkgatherings.com/" target="_blank">Vist their website</a>
+                    <a href="https://brightfolkgatherings.com/" target="_blank">Visit their website</a>
                 </li>
 
                 <li>
@@ -53,7 +53,7 @@ export default function VendorsLits() {
                   emotion of their wedding for years to come.
                 
                     </p>
-                    <a href="https://www.veiledrosefilms.com/" target="_blank">Vist their website</a>
+                    <a href="https://www.veiledrosefilms.com/" target="_blank">Visit their website</a>
                 </li>
                 <li>
                     <img src={vendor4} className="vendorsPhoto" alt="" />
@@ -68,7 +68,7 @@ export default function VendorsLits() {
                   marketing, all designed to help you attract your dream clients
                   with confidence.
                 </p>
-                <a href="https://natashaclawson.com/" target="_blank">Vist their website</a>
+                <a href="https://natashaclawson.com/" target="_blank">Visit their website</a>
                 </li>
 
                 <li>
