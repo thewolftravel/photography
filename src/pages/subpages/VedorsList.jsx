@@ -5,7 +5,7 @@ import vendor3 from"../../assets/vendors/vendor3.png"
 import vendor4 from"../../assets/vendors/vendor4.jpg"
 import vendor5 from"../../assets/vendors/vendor5.webp"
 import vendor6 from "../../assets/vendors/vendor6.jpg"
-// import vendor7 from "../../assets/vendors/vendor7.jpg"; JEFF VIDEOGUY
+import vendor7 from "../../assets/vendors/vendor7.png";
 
 import { Link } from "react-router-dom";
 
@@ -77,15 +77,23 @@ export default function VendorsLits() {
               </a>
             </li>
 
-            {/* <li>
+            <li>
               <img src={vendor7} className="vendorsPhoto" alt="" />
               <h3 className="vendorsName">Jeff TheVideoGuy</h3>
               <p className="vendorsService">Videographer</p>
-              <p className="vendorsDescription">ADD PHOTO + DESCRIPTION </p>
+              <p className="vendorsDescription">
+                I love "storytelling" in shooting and creative editing -
+                creating not just a video record, but adding sparkle, brightness
+                and engaging polish to edits, design elements, fx and
+                dialog/music mixing to build a more grand and exciting "mood"
+                and story. It's great being part of "The Best Day Ever!" for
+                most couples, along with learning and exploring new events,
+                supporting my client's excitement and creativity and energy.
+              </p>
               <a href="https://www.ourweddingphotovideo.com" target="_blank">
-                Let's work together
+                Visit their website
               </a>
-            </li> */}
+            </li>
 
             <li>
               <img src={vendor4} className="vendorsPhoto" alt="" />
