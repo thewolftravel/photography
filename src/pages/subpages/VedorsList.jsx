@@ -19,21 +19,21 @@ export default function VendorsLits() {
 
         <section className="vendorsList">
           <ul className="list">
+
             <li>
-              <img src={vendor3} className="vendorsPhoto" alt="" />
-              <h3 className="vendorsName">Veiled Rose Films</h3>
+              <img src={vendor7} className="vendorsPhoto" alt="" />
+              <h3 className="vendorsName">Jeff TheVideoGuy</h3>
               <p className="vendorsService">Videographer</p>
               <p className="vendorsDescription">
-                Brian Alan is a Colorado-based wedding videographer with over a
-                decade of experience capturing love stories with emotional depth
-                and cinematic flair. Through his brand, Veiled Rose Films, he
-                offers luxury heirloom films handcrafted to preserve the real
-                moments that matter most. With a calming presence and a
-                commitment to storytelling, Brian blends seamlessly into the
-                day, helping couples relive the joy, laughter, and heartfelt
-                emotion of their wedding for years to come.
+                I love "storytelling" in shooting and creative editing -
+                creating not just a video record, but adding sparkle, brightness
+                and engaging polish to edits, design elements, fx and
+                dialog/music mixing to build a more grand and exciting "mood"
+                and story. It's great being part of "The Best Day Ever!" for
+                most couples, along with learning and exploring new events,
+                supporting my client's excitement and creativity and energy.
               </p>
-              <a href="https://www.veiledrosefilms.com/" target="_blank">
+              <a href="https://www.ourweddingphotovideo.com" target="_blank">
                 Visit their website
               </a>
             </li>
@@ -72,28 +72,30 @@ export default function VendorsLits() {
                 your brand with confidence. Just like this website—you’re seeing
                 my work in action.
               </p>
-              <a href="mailto:gabriela_carvalho06l@hotmail.com?subject=Website Inquiry">
-                Let's work together
+              <a href="https://gabbycarvalho.github.io/gabriela-portfolio/#/contact">
+                Check my Portfolio
               </a>
             </li>
 
             <li>
-              <img src={vendor7} className="vendorsPhoto" alt="" />
-              <h3 className="vendorsName">Jeff TheVideoGuy</h3>
+              <img src={vendor3} className="vendorsPhoto" alt="" />
+              <h3 className="vendorsName">Veiled Rose Films</h3>
               <p className="vendorsService">Videographer</p>
               <p className="vendorsDescription">
-                I love "storytelling" in shooting and creative editing -
-                creating not just a video record, but adding sparkle, brightness
-                and engaging polish to edits, design elements, fx and
-                dialog/music mixing to build a more grand and exciting "mood"
-                and story. It's great being part of "The Best Day Ever!" for
-                most couples, along with learning and exploring new events,
-                supporting my client's excitement and creativity and energy.
+                Brian Alan is a Colorado-based wedding videographer with over a
+                decade of experience capturing love stories with emotional depth
+                and cinematic flair. Through his brand, Veiled Rose Films, he
+                offers luxury heirloom films handcrafted to preserve the real
+                moments that matter most. With a calming presence and a
+                commitment to storytelling, Brian blends seamlessly into the
+                day, helping couples relive the joy, laughter, and heartfelt
+                emotion of their wedding for years to come.
               </p>
-              <a href="https://www.ourweddingphotovideo.com" target="_blank">
+              <a href="https://www.veiledrosefilms.com/" target="_blank">
                 Visit their website
               </a>
             </li>
+
 
             <li>
               <img src={vendor4} className="vendorsPhoto" alt="" />
