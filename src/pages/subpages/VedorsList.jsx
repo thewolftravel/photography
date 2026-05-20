@@ -73,7 +73,7 @@ export default function VendorsLits() {
                 my work in action.
               </p>
               <a href="https://gabbycarvalho.github.io/gabriela-portfolio/#/contact">
-                Check my Portfolio
+                Visit their website
               </a>
             </li>
 
