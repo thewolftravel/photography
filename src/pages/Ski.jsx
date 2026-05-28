@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async'
 import ScrollItem from "../components/ScrollIItem";
 import HoneyBookEmbed from "../components/HoneyBookEmbed"
 import "swiper/css";
@@ -38,6 +39,23 @@ import collage8 from "../assets/ski/collage8.jpg"
 export default function Ski() {
     return (
         <>
+        <Helmet>
+            <title>Ski & Snow Photography Colorado | Karina Bittencourt</title>
+            <meta name="description" content="Ski and snowboarding photography sessions at Keystone, Copper Mountain, Winter Park and more. Action shots, couples, and families on the slopes." />
+            <link rel="canonical" href="https://www.kbphotographer.com/ski" />
+            <meta property="og:title" content="Ski & Snow Photography Colorado | Karina Bittencourt" />
+            <meta property="og:description" content="On-mountain photography sessions starting at $700. Keystone, Ikon Pass resorts, and more in Colorado." />
+            <meta property="og:url" content="https://www.kbphotographer.com/ski" />
+            <script type="application/ld+json">{JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Ski & Snow Photography Sessions",
+                "provider": { "@type": "ProfessionalService", "name": "Karina Bittencourt Photographer" },
+                "offers": { "@type": "Offer", "price": "700", "priceCurrency": "USD" },
+                "areaServed": ["Keystone", "Copper Mountain", "Winter Park", "Eldora", "Colorado", "Dillon", "Breckenridge", "Vail", "Aspen", "Arapahoe Basin"],
+                "description": "On-mountain ski and snowboarding photography sessions in Colorado."
+            })}</script>
+        </Helmet>
         <section className="heroCarousel">
              <Swiper
                 modules={[Autoplay]}

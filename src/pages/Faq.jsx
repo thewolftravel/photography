@@ -1,6 +1,7 @@
 import Accordion from "../components/Accordion"
 import Polaroid from "../components/Polaroid";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async'
 import HoneyBookEmbed from "../components/HoneyBookEmbed";
 import "../styles/faq.css"
 
@@ -19,6 +20,42 @@ import snowboarding4 from "../assets/faq/snowboarding4.jpg"
 export default function Faq() {
     return(
         <>
+        <Helmet>
+            <title>FAQ | Colorado Adventure & Engagement Photography | Karina Bittencourt</title>
+            <meta name="description" content="Answers to common questions about booking, locations, pricing, and what to expect from your Colorado photography session with Karina Bittencourt." />
+            <link rel="canonical" href="https://www.kbphotographer.com/faq" />
+            <script type="application/ld+json">{JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What types of photography sessions do you offer?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Mountain engagements, snowboarding adventures, ski sessions, intimate elopements, family portraits, lifestyle photography, and headshots." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Where do your photoshoots take place?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Mostly in Colorado's mountains near Denver and Broomfield, including Rocky Mountain National Park, Summit County, Keystone, Breckenridge, and Winter Park." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How far in advance should I book?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "For mountain engagements and winter adventures, 2-6 months in advance is ideal. Lifestyle and family sessions are more flexible." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How long until I get my photos?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "A sneak peek within a week, and full galleries delivered in 3-8 weeks depending on season and session type." }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you travel outside Colorado?",
+                    "acceptedAnswer": { "@type": "Answer", "text": "Yes! Colorado is home base but I'm open to traveling for meaningful adventures and destination sessions." }
+                }
+                ]
+            })}</script>
+        </Helmet>
         <section className="hero-Faq">
             <div className="hero-inner">
                 <div className="polaroid-group">

@@ -1,6 +1,7 @@
 import "../styles/engagements.css"
 import HoneyBookEmbed from "../components/HoneyBookEmbed"
 import ScrollItem from "../components/ScrollIItem";
+import { Helmet } from 'react-helmet-async'
 
 import collage1 from "../assets/engagements/collage1.jpg"
 import collage2 from "../assets/engagements/collage2.jpg"
@@ -22,6 +23,22 @@ import footerpic from "../assets/engagements/footer.jpg"
 export default function Engagements () {
     return (
         <>
+        <Helmet>
+            <title>Mountain Engagement Photography Colorado | Karina Bittencourt</title>
+            <meta name="description" content="Colorado mountain engagement photography in Rocky Mountain National Park, Breckenridge, Estes Park, and beyond. Candid, adventurous, and uniquely yours." />
+            <link rel="canonical" href="https://www.kbphotographer.com/engagements" />
+            <meta property="og:title" content="Mountain Engagement Photography | Karina Bittencourt" />
+            <meta property="og:description" content="Capture your proposal or engagement in Colorado's mountains. Serving Broomfield, Denver, Summit County, and beyond." />
+            <meta property="og:url" content="https://www.kbphotographer.com/engagements" />
+            <script type="application/ld+json">{JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Mountain Engagement Photography",
+                "provider": { "@type": "ProfessionalService", "name": "Karina Bittencourt Photographer" },
+                "areaServed": ["Colorado", "Rocky Mountain National Park", "Breckenridge", "Estes Park", "Keystone","Summit County","Steamboat","Breckenridge","Golden", "Winter Park", "Frisco", "Dillon", "Vail", "Aspen",  "Broomfield", "Denver", "Westminster", "Arvada","Thornton", "Fort Collins", "Estes Park", "Boulder","Arapahoe Basin"],
+                "description": "Candid engagement and proposal photography in Colorado's mountains."
+            })}</script>
+        </Helmet>
         <section className="heroSection">
             <ScrollItem>
             <p className="heroText">Planning to Propose?<br/>Let capture the yes</p>

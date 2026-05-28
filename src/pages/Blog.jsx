@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { posts } from "./posts";
 import "../styles/blog.css";
 
@@ -26,6 +27,17 @@ export default function Blog() {
 
   return (
     <>
+
+      <Helmet>
+        <title>Blog | Colorado Photography | Karina Bittencourt</title>
+        <meta name="description" content="Stories, tips, and behind-the-scenes from engagement sessions, ski photography, elopements, headshots, and family portraits across Colorado." />
+        <link rel="canonical" href="https://kbphotographer.com/blog" />
+        <meta property="og:title" content="Blog | Karina Bittencourt Photographer" />
+        <meta property="og:description" content="Stories and tips from Colorado engagement, elopement, ski, and portrait photography sessions." />
+        <meta property="og:url" content="https://kbphotographer.com/blog" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
 
     <div className="blog-wrapper">
 

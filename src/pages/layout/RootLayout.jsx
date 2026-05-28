@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
+import { Helmet } from 'react-helmet-async'
 import logo from "../../assets/logos/logo.png";
 import br from "../../assets/logos/br.jpg";
 import us from "../../assets/logos/us.png";
@@ -18,6 +19,67 @@ export default function RootLayout () {
 
   return (
     <>
+     <Helmet>
+        <html lang="en" />
+        <meta name="author" content="Karina Bittencourt Photographer" />
+        <meta property="og:site_name" content="Karina Bittencourt Photographer" />
+        <meta property="og:locale" content="en_US" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Karina Bittencourt Photographer",
+          "url": "https://www.kbphotographer.com",
+          "telephone": "",
+          "image": "https://www.kbphotographer.com/logo.png",
+          "description": "Latina photographer based in Colorado specializing in weddings, elopements, engagements, family portraits, couples, and ski & snow sports photography.",
+          "areaServed": [
+            "Broomfield", "Denver", "Westminster", "Arvada",
+            "Thornton", "Fort Collins", "Estes Park", "Boulder",
+            "Golden", "Winter Park", "Frisco", "Dillon", "Vail", "Aspen",
+            "Steamboat", "Breckenridge", "Keystone", "Summit County",
+            "Rocky Mountain National Park", "Colorado", "Arapahoe Basin"
+          ],
+          "knowsAbout": [
+            "Wedding Photography",
+            "Micro Wedding Photography",
+            "Elopement Photography",
+            "Engagement Photography",
+            "Family Portrait Photography",
+            "Couple Portrait Photography",
+            "Portrait Photography",
+            "Ski Photography",
+            "Snowboarding Photography",
+            "Snow Sports Photography",
+            "Headshots",
+            "Branding Photography",
+            "Lifestyle Photography"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Photography Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wedding & Elopement Photography" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Micro Wedding Photography" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Engagement Photography" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Family & Couple Portraits" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ski & Snow Sports Photography" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Headshots" } }
+            ]
+          },
+          "sameAs": [
+            "https://www.instagram.com/bittencourt_k",
+            "https://www.facebook.com/KarinaBittencourtPhotographer",
+            "https://br.pinterest.com/karinabittencourtphotographer"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Broomfield",
+            "addressRegion": "CO",
+            "addressCountry": "US"
+          }
+        })}</script>
+      </Helmet>
+
       <ScrollToTop />   
 
       <header className="header">

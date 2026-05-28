@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Helmet } from 'react-helmet-async'
 import { Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 import ScrollItem from "../components/ScrollIItem";
@@ -40,6 +41,15 @@ import snowboarding from "../assets/home/mobile/snowboarding-mobile.jpg"
 export default function Home() {
   return (
     <>
+    <Helmet>
+      <title>Karina Bittencourt Photographer | Colorado Adventure & Engagement Photography</title>
+      <meta name="description" content="Latina photographer in Broomfield, Colorado. Specializing in mountain engagements, ski sessions, headshots, and lifestyle photography." />
+      <link rel="canonical" href="https://www.kbphotographer.com" />
+      <meta property="og:title" content="Karina Bittencourt Photographer | Colorado" />
+      <meta property="og:description" content="Mountain engagements, ski sessions, headshots and lifestyle photography in Colorado." />
+      <meta property="og:url" content="https://www.kbphotographer.com" />
+      <meta property="og:type" content="website" />
+    </Helmet>
       <ScrollItem>
         <section className="home-carousel">
           <Swiper

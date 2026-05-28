@@ -2,6 +2,7 @@ import "../styles/headshots.css"
 import HoneyBookEmbed from "../components/HoneyBookEmbed"
 import ScrollItem from "../components/ScrollIItem";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async'
 import hero from "../assets/headshots/hero.png"
 import bubble1 from "../assets/headshots/01-01.jpg"
 import bubble2 from "../assets/headshots/01-02.jpg"
@@ -24,6 +25,23 @@ import ka from "../assets/headshots/photographer.jpeg"
 export default function Headshots () {
     return (
         <>
+
+        <Helmet>
+            <title>Professional Headshots Broomfield Colorado | Karina Bittencourt</title>
+            <meta name="description" content="Outdoor professional headshots in Broomfield, Denver, Westminster and surrounding areas. For entrepreneurs, coaches, and professionals ready to level up their brand." />
+            <link rel="canonical" href="https://www.kbphotographer.com/headshots" />
+            <meta property="og:title" content="Professional Headshots Broomfield CO | Karina Bittencourt" />
+            <meta property="og:description" content="Authentic outdoor headshots for professionals and entrepreneurs in the North Denver metro area." />
+            <meta property="og:url" content="https://www.kbphotographer.com/headshots" />
+            <script type="application/ld+json">{JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Professional Headshot Photography",
+                "provider": { "@type": "ProfessionalService", "name": "Karina Bittencourt Photographer" },
+                "areaServed": ["Broomfield", "Denver", "Westminster", "Arvada", "Thornton", "Erie"],
+                "description": "Outdoor professional headshots for entrepreneurs and professionals in Colorado."
+            })}</script>
+        </Helmet>
         <section className="hero">
             <div className="img-wrapper">
                 <img src={hero} alt="" />
