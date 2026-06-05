@@ -21,4 +21,5 @@ export const REDIRECTS = {
   '/engagements': '/engagements',
   '/pt/': '/pt',
   '/pt': '/pt',
+   '/Blog/railer_park_girls_rail_jam_2025_eldora_mountain_wood_ward.html': '/blog',
 }
