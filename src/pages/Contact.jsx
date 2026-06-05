@@ -18,7 +18,7 @@ export default function Contact () {
     <>
     <section className="hero">
         <div className="img-wrapper">
-            <img src={hero} alt="ka" />
+            <img src={hero} alt="couple-moutain-surprise-proposal-colorado" />
         </div>
     </section>
         <div className="sayYes">
@@ -29,7 +29,7 @@ export default function Contact () {
 
 
             <div className="imgBackground">
-                <img src={proposal} alt="proposal" className="side-img" />
+                <img src={proposal} alt="couple-moutain-surprise-proposal-colorado"className="side-img" />
                 
                  <div className="text">
                 <ScrollItem>
@@ -44,7 +44,7 @@ export default function Contact () {
                 </ScrollItem>
             </div>
 
-        <img src={proposal2} alt="proposal2" className="side-img"/>
+        <img src={proposal2} alt="couple-moutain-surprise-proposal-colorado-ski-photography" className="side-img"/>
             
 
             </div>
@@ -52,7 +52,7 @@ export default function Contact () {
 
        <div className="contactGrid">
         <div className="imageForm">
-            <img src={couple} alt="couple" />
+            <img src={couple} alt="couple-propsal-engagemnet-photography-black-and-white-colorado-denver" />
         </div> 
 
             <div className="contactForm">
@@ -74,23 +74,23 @@ export default function Contact () {
         <div className="footerCollage">
 
             <div className="frame img-1">
-                <img src={collage1} />
+                <img src={collage1} alt="couple-moutain-surprise-proposal-colorado-love-land-engagemnet" />
             </div>
 
             <div className="frame img-2">
-                <img src={collage2} />
+                <img src={collage2} alt="family-portraits-lifestyle-photography" />
             </div>
 
             <div className="frame img-3">
-                <img src={collage3}  />
+                <img src={collage3} alt="enlopement-moutain-couples"  />
             </div>
 
             <div className="frame img-4">
-                <img src={collage4} />
+                <img src={collage4} alt="mountain-ski-sports-snow-photography" />
             </div>
 
             <div className="frame img-5">
-                <img src={collage5} />
+                <img src={collage5} alt="maternity-pictures-lifestyle-photography"/>
             </div>
                      
         </div>

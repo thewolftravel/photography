@@ -62,21 +62,21 @@ export default function Home() {
             <SwiperSlide>
               <picture>
                 <source media="(max-width: 768px)" srcSet={img10mob} />
-                <img src={img10} alt="" />
+                <img src={img10} alt="couple-elopment" />
               </picture>
             </SwiperSlide>
 
             <SwiperSlide>
               <picture>
                 <source media="(max-width: 768px)" srcSet={img11mob} />
-                <img src={img11} alt="" />
+                <img src={img11} alt="snowboarding-sports-photography" />
               </picture>
             </SwiperSlide>
 
             <SwiperSlide>
               <picture>
                 <source media="(max-width: 768px)" srcSet={img12mob} />
-                <img src={img12} alt="" />
+                <img src={img12} alt="family-portraits" />
               </picture>
             </SwiperSlide>
 
@@ -90,21 +90,21 @@ export default function Home() {
             <SwiperSlide>
               <picture>
                 <source media="(max-width: 768px)" srcSet={img24mob} />
-                <img src={img24} alt="" />
+                <img src={img24} alt="portraits-pictures" />
               </picture>
             </SwiperSlide>
 
             <SwiperSlide>
               <picture>
                 <source media="(max-width: 768px)" srcSet={couple4mob} />
-                <img src={img16} alt="" />
+                <img src={img16} alt="portraits-pictures-family" />
               </picture>
             </SwiperSlide>
 
             <SwiperSlide>
               <picture>
                 <source media="(max-width: 768px)" srcSet={couple5mob} />
-                <img src={img17} alt="" />
+                <img src={img17} alt="proposal-picture-moutain-engagement" />
               </picture>
             </SwiperSlide>
           </Swiper>
@@ -131,7 +131,7 @@ export default function Home() {
           </div>
 
           <div className="photographer">
-            <img src={ka} alt="photographer" />
+            <img src={ka} alt="photographer-colorado" />
           </div>
         </div>
       </ScrollItem>
@@ -146,7 +146,7 @@ export default function Home() {
               <Link to="/engagements">
               <div className="card">
                 
-                <img src={weddingGif} alt="wedding" />
+                <img src={weddingGif} alt="wedding-engagement-enlopment" />
                 <h3 className="cardTitle">Couples</h3>
 
                 <div className="cardLinks">
@@ -157,7 +157,7 @@ export default function Home() {
               
               <Link to="/headshots">
               <div className="card">
-                 <img src={headshotsGif} alt="headshots" />
+                 <img src={headshotsGif} alt="headshots-branding-portraits-professional-pictures-linkedin" />
                 <h3 className="cardTitle">Branding</h3>
 
                 <div className="cardLinks">
@@ -169,7 +169,7 @@ export default function Home() {
               
               <Link to="/ski">
               <div className="card">
-                <img src={lifestyleGif} alt="lifestyle" />
+                <img src={lifestyleGif} alt="lifestyle-family-portraits-sports-snowsports-ski-snowboarding-pictures" />
                 <h3 className="cardTitle">Lifestyle</h3>
 
                 <div className="cardLinks">
@@ -194,19 +194,19 @@ export default function Home() {
             slidesPerView={1}
           >
             <SwiperSlide>
-              <img src={review1} />
+              <img src={review1} alt="review"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={review2} />
+              <img src={review2} alt="review" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={review3} />
+              <img src={review3}  alt="review"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={review4} />
+              <img src={review4} alt="review"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={review5} />
+              <img src={review5} alt="review"/>
             </SwiperSlide>
           </Swiper>
         </section>

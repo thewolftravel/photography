@@ -5,6 +5,7 @@ import br from "../../assets/logos/br.jpg";
 import us from "../../assets/logos/us.png";
 import { useState } from "react";
 import ScrollToTop from "../../components/ScrollToTop";
+import RedirectHandler from "../../components/RedirectHandler";
 
 export default function RootLayout () {
 
@@ -81,6 +82,7 @@ export default function RootLayout () {
       </Helmet>
 
       <ScrollToTop />   
+      <RedirectHandler />
 
       <header className="header">
         <div className="topBar">

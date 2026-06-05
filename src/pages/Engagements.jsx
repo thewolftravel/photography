@@ -68,16 +68,16 @@ export default function Engagements () {
             </div>
             <div className="right">
                 <div className="bigImage">
-                    <img src={collage5} alt="" />
+                    <img src={collage5} alt="surprise-engagement-proprosal-picnic-park-colorado-city-park-denver" />
                 </div>
             
             
             <div className="smallImages">
 
-                <img src={collage1} alt="" />
-                <img src={collage2} alt="" />
-                <img src={collage3} alt="" />
-                <img src={collage4} alt="" />
+                <img src={collage1} alt="surprise-engagement-proposal-emerald-lake-rocky-moutain-national-park-rmnp" />
+                <img src={collage2} alt="surprise-engagement-proposal-emerald-lake-rocky-moutain-national-park-rmnp"  />
+                <img src={collage3} alt="surprise-engagement-proposal-aspen-colorado" />
+                <img src={collage4} alt="surprise-engagement-proposal-sunrise-amphitheater-boulder" />
             </div>
             </div>
         </div> 
@@ -100,10 +100,10 @@ export default function Engagements () {
 
             <ScrollItem>
             <div className="middlePhotos">
-                <img src={middle3} alt="" />
-                <img src={middle1} alt="" />
-                <img src={middle2} alt="" />
-                <img src={middle4} alt="" />
+                <img src={middle3} alt="surprise-proposal-engagement-keystone-colorado-arapahoe-basin-ski-snowboarding-couple" />
+                <img src={middle1} alt="surprise-proposal-engagement-keystone-colorado-arapahoe-basin-ski-snowboarding-couple" />
+                <img src={middle2} alt="surprise-proposal-engagement-keystone-colorado-arapahoe-basin-ski-snowboarding-couple" />
+                <img src={middle4} alt="surprise-proposal-engagement-keystone-colorado-arapahoe-basin-ski-snowboarding-couple" />
 
             </div>
             </ScrollItem>
@@ -118,7 +118,7 @@ export default function Engagements () {
              <div className="left2">
                 
                 <div className="engagementExperience">
-                    <img src={pic1} alt="" />
+                    <img src={pic1} alt="surprise-engagement-proposal-overlook-telluride" />
                 </div>
             </div>
              <div className="right2">
@@ -155,7 +155,7 @@ export default function Engagements () {
             </div>
 
             <div className="fourthSectionGif">
-                <img src={gif1} alt="" />
+                <img src={gif1} alt="surprise-engagement-proposal-aspen-colorado" />
             </div>
 
         </section>
@@ -175,10 +175,10 @@ export default function Engagements () {
 
             <ScrollItem>
             <div className="middlePhotos">
-                <img src={final1} alt="" />
-                <img src={final2} alt="" />
-                <img src={final3} alt="" />
-                <img src={final4} alt="" />
+                <img src={final1} alt="surprise-engagement-proposal-lily-lake-rmnp" />
+                <img src={final2} alt="surprise-engagement-proposal-lily-lake-rmnp"/>
+                <img src={final3} alt="surprise-engagement-proposal-lily-lake-rmnp"/>
+                <img src={final4} alt="surprise-engagement-proposal-lily-lake-rmnp"/>
 
             </div>
             </ScrollItem>
