@@ -23,7 +23,7 @@ export default function Faq() {
         <Helmet>
             <title>FAQ | Colorado Adventure & Engagement Photography | Karina Bittencourt</title>
             <meta name="description" content="Answers to common questions about booking, locations, pricing, and what to expect from your Colorado photography session with Karina Bittencourt." />
-            <link rel="canonical" href="https://www.kbphotographer.com/faq" />
+            <link rel="canonical" href="https://kbphotographer.com/faq" />
             <script type="application/ld+json">{JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "FAQPage",

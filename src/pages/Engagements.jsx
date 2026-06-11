@@ -26,10 +26,10 @@ export default function Engagements () {
         <Helmet>
             <title>Mountain Engagement Photography Colorado | Karina Bittencourt</title>
             <meta name="description" content="Colorado mountain engagement photography in Rocky Mountain National Park, Breckenridge, Estes Park, and beyond. Candid, adventurous, and uniquely yours." />
-            <link rel="canonical" href="https://www.kbphotographer.com/engagements" />
+            <link rel="canonical" href="https://kbphotographer.com/engagements" />
             <meta property="og:title" content="Mountain Engagement Photography | Karina Bittencourt" />
             <meta property="og:description" content="Capture your proposal or engagement in Colorado's mountains. Serving Broomfield, Denver, Summit County, and beyond." />
-            <meta property="og:url" content="https://www.kbphotographer.com/engagements" />
+            <meta property="og:url" content="https://kbphotographer.com/engagements" />
             <script type="application/ld+json">{JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Service",

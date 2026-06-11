@@ -44,10 +44,10 @@ export default function Home() {
     <Helmet>
       <title>Karina Bittencourt Photographer | Colorado Adventure & Engagement Photography</title>
       <meta name="description" content="Latina photographer in Broomfield, Colorado. Specializing in mountain engagements, ski sessions, headshots, and lifestyle photography." />
-      <link rel="canonical" href="https://www.kbphotographer.com" />
+      <link rel="canonical" href="https://kbphotographer.com" />
       <meta property="og:title" content="Karina Bittencourt Photographer | Colorado" />
       <meta property="og:description" content="Mountain engagements, ski sessions, headshots and lifestyle photography in Colorado." />
-      <meta property="og:url" content="https://www.kbphotographer.com" />
+      <meta property="og:url" content="https://kbphotographer.com" />
       <meta property="og:type" content="website" />
     </Helmet>
       <ScrollItem>

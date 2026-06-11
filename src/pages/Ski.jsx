@@ -42,10 +42,10 @@ export default function Ski() {
         <Helmet>
             <title>Ski & Snow Photography Colorado | Karina Bittencourt</title>
             <meta name="description" content="Ski and snowboarding photography sessions at Keystone, Copper Mountain, Winter Park and more. Action shots, couples, and families on the slopes." />
-            <link rel="canonical" href="https://www.kbphotographer.com/ski" />
+            <link rel="canonical" href="https://kbphotographer.com/ski" />
             <meta property="og:title" content="Ski & Snow Photography Colorado | Karina Bittencourt" />
             <meta property="og:description" content="On-mountain photography sessions starting at $700. Keystone, Ikon Pass resorts, and more in Colorado." />
-            <meta property="og:url" content="https://www.kbphotographer.com/ski" />
+            <meta property="og:url" content="https://kbphotographer.com/ski" />
             <script type="application/ld+json">{JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Service",

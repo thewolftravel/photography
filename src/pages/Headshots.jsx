@@ -29,10 +29,10 @@ export default function Headshots () {
         <Helmet>
             <title>Professional Headshots Broomfield Colorado | Karina Bittencourt</title>
             <meta name="description" content="Outdoor professional headshots in Broomfield, Denver, Westminster and surrounding areas. For entrepreneurs, coaches, and professionals ready to level up their brand." />
-            <link rel="canonical" href="https://www.kbphotographer.com/headshots" />
+            <link rel="canonical" href="https://kbphotographer.com/headshots" />
             <meta property="og:title" content="Professional Headshots Broomfield CO | Karina Bittencourt" />
             <meta property="og:description" content="Authentic outdoor headshots for professionals and entrepreneurs in the North Denver metro area." />
-            <meta property="og:url" content="https://www.kbphotographer.com/headshots" />
+            <meta property="og:url" content="https://kbphotographer.com/headshots" />
             <script type="application/ld+json">{JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Service",
